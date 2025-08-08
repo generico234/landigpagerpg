@@ -20,7 +20,7 @@ header {
 }
 
 header h1 {
-    font-size: 3em;
+    font-size: 2em;
     margin-bottom: 10px;
 }
 
@@ -29,31 +29,16 @@ header .tagline {
     margin-bottom: 20px;
 }
 
-.cta-button {
-    display: inline-block;
-    padding: 15px 30px;
-    background-color: #ff6f61;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background-color 0.3s;
-}
-
-.cta-button:hover {
-    background-color: #e05548;
-}
-
-.section {
+section {
     max-width: 800px;
     margin: 40px auto;
     background-color: white;
-    padding: 30px;
+    padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.section h2 {
+h2 {
     margin-bottom: 15px;
     color: #2e2b4f;
 }
@@ -67,10 +52,6 @@ li {
     margin-bottom: 10px;
 }
 
-.call-to-action {
-    text-align: center;
-}
-
 footer {
     text-align: center;
     margin-top: 60px;
@@ -78,29 +59,69 @@ footer {
     font-size: 0.9em;
     color: #777;
 }
+
 footer a {
     color: #777;
     text-decoration: none;
 }
+
 footer a:hover {
     text-decoration: underline;
 }
-.img {
-    height: 25%;
-    width: 25%;
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
 }
+
+button:hover {
+    background-color: #45a049;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 .flex-container {
     display: flex;
-    align-items: flex-start;
-    margin-left: 50px;
+    flex-wrap: wrap;
     gap: 20px;
+    justify-content: center;
 }
 
 .section-image {
-    width: 350px;
+    max-width: 300px;
     height: auto;
     border-radius: 10px;
 }
-#img1{gap: 150px;}
-#img2{gap: 270px;}
-#img3{gap: 150px;}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 15px 30px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
